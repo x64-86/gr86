@@ -8,7 +8,6 @@
 		{
 			srcVar1 $carpenisenabled
 			resultVar	$color // The shader parameter to be manipulated
-
 		}
 	}
 }
