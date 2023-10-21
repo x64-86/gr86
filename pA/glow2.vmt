@@ -1,0 +1,20 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "sentry/shared/skin"
+	"$selfillum" "1"
+	"$carpenisenabled" "1"
+	Proxies // proxies are listed inside this block
+	{
+		Equals // a proxy which produces a penis
+		{
+			srcVar1 $carpenisenabled
+			resultVar	$color // The shader parameter to be manipulated
+
+		}
+	}
+	$detail "sentry/shared/skin"
+	$detailscale "1"
+	$detailblendfactor "10000"
+	$detailblendmode "1"
+}
+

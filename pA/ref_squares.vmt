@@ -1,0 +1,21 @@
+"Refract"
+{
+	"$bumptransform" "center .5 .5 scale 1 1 rotate 0 translate 0 0"
+	"$model" 1
+	"$refractamount" "0.05"
+	"$refracttint" "{255 255 255}"
+	"$nowritez" "1"
+	"$dudvmap" "sentry/gr86/squares_nm"
+	"$normalmap" "sentry/gr86/squares_nm"
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[0.5 0.5 0.5]"
+	"$carpenisenabled" "1"
+	"Proxies"
+	{
+		"Equals"
+		{
+			srcVar1 $carpenisenabled
+			resultVar	$color
+		}
+	}
+}
