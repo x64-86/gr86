@@ -1,0 +1,14 @@
+"UnlitGeneric"
+{
+	"$basetexture" "sentry/shared/skin"
+	"$carpenisenabled" "1"
+	Proxies
+	{
+		Equals
+		{
+			srcVar1 $carpenisenabled
+			resultVar $color
+		}
+	}
+}
+

@@ -1,0 +1,5 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "sentry/shared/skin"
+	"$no_draw" "1"
+}
