@@ -1,5 +1,15 @@
 "VertexlitGeneric"
 {
-	"$basetexture" "sentry/shared/skin"
-	"$no_draw" "1"
+	"$basetexture" "sentry/shared/black"
+	"$carpenisenabled" "[0 0 0]"
+	Proxies // proxies are listed inside this block
+	{
+		Equals // a proxy which produces a penis
+		{
+			srcVar1 $carpenisenabled
+			resultVar	$color // The shader parameter to be manipulated
+
+		}
+	}
 }
+
