@@ -9,7 +9,7 @@
 
 	"$phong" "1" 
 	"$phongboost" "15" 
-	"$phongexponent" 3
+	"$phongexponent" "3"
 	"$phongfresnelranges" "[0.22 0.2 2]"
 
 	"$rimlight" "1"
