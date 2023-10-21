@@ -1,6 +1,6 @@
 "unlitGeneric"
 {
-	"$basetexture" "sentry/shared/skin"
+	$basetexture "sentry/shared/skin"
 	"$carpenisenabled" "1"
 	Proxies // proxies are listed inside this block
 	{
