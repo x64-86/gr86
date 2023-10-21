@@ -1,0 +1,17 @@
+"unlitGeneric"
+{
+	"$basetexture" "sentry/gr86/lights_on"
+	"$translucent" "1"
+	"$additive" "1"
+	"$carpenisenabled" "[1 1 0]"
+	Proxies // proxies are listed inside this block
+	{
+		Equals // a proxy which produces a penis
+		{
+			srcVar1 $carpenisenabled
+			resultVar	$color // The shader parameter to be manipulated
+
+		}
+	}
+}
+

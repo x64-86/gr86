@@ -1,0 +1,9 @@
+"UnLitGeneric"
+{
+	"$basetexture"		"vcmod/lights/3d/2x8sgm_tex3"
+	"$nocull" 1
+	"$additive" 1
+	"$vertexalpha" 1
+	"$vertexcolor" 1
+}
+// Copyright © 2012-2016 VCMod (freemmaann). All Rights Reserved. If you have any complaints or ideas contact me: steam: freemmaann, email - freemmaann@gmail.com or skype - comman6.
