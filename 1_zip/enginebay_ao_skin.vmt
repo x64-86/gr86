@@ -1,0 +1,31 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "sentry/gr86/enginebay"
+	"$bumpmap" "sentry/gr86/enginebay_nm"
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[0.3 0.3 0.31]"
+	"$envmapfresnel" "1"
+
+	"$phong" "1" 
+	"$phongboost" "15" 
+	"$phongexponent" 3
+	"$phongfresnelranges" "[0.22 0.2 2]"
+
+	"$rimlight" "1"
+	"$rimlightexponent" "2"
+	"$rimlightboost" "1"
+	"$rimmask" "1"
+
+	$deftint "[0.01 0.01 0.01]"
+	"Proxies"
+	{
+	"Add"
+		{
+		srcVar1 "$color"
+		srcVar2 "$deftint"
+		resultVar "$phongtint"
+		}
+	}
+}
+
+
