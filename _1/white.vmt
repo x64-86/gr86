@@ -1,7 +1,7 @@
 "UnLitGeneric"
 {
-	"$basetexture" "sentry/shared/skin"
-	"$carpenisenabled" "1"
+	$basetexture "sentry/shared/skin"
+	$carpenisenabled "1"
 	Proxies // proxies are listed inside this block
 	{
 		Equals // a proxy which produces a penis
