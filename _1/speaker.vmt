@@ -1,6 +1,6 @@
 "VertexlitGeneric"
 {
-	"$basetexture" "sentry/gr86/speaker"
+	"$basetexture" "sentry/gr86/speaker_tex"
 	"$bumpmap" "sentry/gr86/speaker_nm"
     $phong "1"
 
